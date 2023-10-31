@@ -1,7 +1,8 @@
 body {
     background-color: coral;
 }
-ol{ list-style-type: decimal;}
+ol{ list-style-type: decimal;
+}
 h{color: bisque;}
 .trait{
     color: greenyellow;
@@ -12,4 +13,18 @@ h{color: bisque;}
     font-weight: 10;
     font-style: Verdana;
 
+}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+.moreinfo{color: purple;}
+p::first-letter{
+    font-size: 1.2rem;
+}
+.notag{
+    list-style-type: none;
+    color: black;
+}
+.moviedep{
+    list-style-type: none;
+    color: blueviolet;
 }
