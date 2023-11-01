@@ -36,3 +36,8 @@ p::first-letter{
 .movieheader{
     color: yellow;
 }
+
+ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
