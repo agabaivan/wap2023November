@@ -6,12 +6,12 @@ ol{ list-style-type: decimal;
 h{color: bisque;}
 .trait{
     color: greenyellow;
-    font-display: bold;
+
 }
 #sidenote{
     font-size: 15px;
     font-weight: 10;
-    font-style: Verdana;
+    font-style: italic;
 
 }
 a{text-decoration: none;}
