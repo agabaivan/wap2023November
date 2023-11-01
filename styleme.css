@@ -22,9 +22,17 @@ p::first-letter{
 }
 .notag{
     list-style-type: none;
-    color: black;
+
 }
-.moviedep{
+
+
+.notag > li {
+    color:brown
+}
+
+.removedot{
     list-style-type: none;
-    color: blueviolet;
+}
+.movieheader{
+    color: yellow;
 }
