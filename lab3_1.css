@@ -1,0 +1,53 @@
+.main2{
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#title {
+    text-align: center;
+}
+tr, th, td{
+    border: 2px solid black;
+}
+td{
+   text-align: center;
+}
+table{
+     border-collapse: collapse;
+     width: 80%;
+}
+.try{
+    text-align: end;
+    font-size: larger;
+}
+.table{
+    margin-left: 20%;
+}
+#btn{
+    display: flex;
+    align-items: flex-end;
+    
+}
+#btn{
+    display: flex;
+    justify-content: flex-end; 
+    
+}
+#btn button{
+    
+    width: 90px;
+    height: 40px;
+    margin-right: 190px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
+#logout{
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
