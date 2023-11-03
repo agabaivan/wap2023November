@@ -1,87 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="lab4_1.css" type="text/css" rel="stylesheet"/>
+    <link href="lab4_1.css" type="text/css" rel="stylesheet" />
 </head>
+
 <body>
 
     <div class="top">
         <h2>Workshop Registration</h2>
-    
-            <select id="options" name="otheroption">
-                 <option selected disabled >More Actions</option>
-                  <option>Seminar</option>
-                   <option>FunDay</option>
-                     <option>HappyHour</option> </select>
-            
+
+        <select id="options" name="otheroption">
+            <option selected disabled>More Actions</option>
+            <option>Seminar</option>
+            <option>FunDay</option>
+            <option>HappyHour</option>
+        </select>
+
     </div>
 
     <div class="both">
         <div class="left">
             <u> Register now while seats are available</u>
             <form action="#">
-            <table>
-                <tr><td>FirstName:</td><td></Name><input type="text"name="FirstName" /></td></tr>
-                <tr><td>LastName:</td><td></Name><input type="text"name="LastName"/></td></tr>
-                <tr><td>Company:</td><td></Name><input class="boxes" type="text"name="Company"/></td></tr>
-                <tr><td>Address:</td><td></Name><input id="bigbox" type="text"name="Address"/></td></tr>
-                <tr><td>City:</td><td></Name><input type="text"name="city"/></td></tr>
-                <tr><td>State/ Province/ Region:</td><td><select class="selections" name="states">
-                    <option selected disabled >-Select-</option>
-                     <option>California</option>
-                      <option>Fairfield</option>
-                      <option>Burlington</option>
-                      <option>Cedar Rapids</option>
-                      <option>Ottumwa</option>
-                         </select></td></tr>
-                <tr><td>Country: </td><td><select class="selections" name="states">
-                    <option selected disabled >-Select-</option>
-                     <option>Uganda</option>
-                      <option>Canada</option>
-                      <option>Egypt</option>
-                      <option>France</option>
-                      <option>England</option>
-                         </select></td></tr>
-                <tr><td>Email:</td><td> </Name><input type="email"name="email"pattern="[a-z0-9._+\]+@[a-z0-9.\-]+\.[a-z]{2,3}"></td></tr>
-                <tr><td>PhoneNumber:</td><td></Name><input type="text"name="phone number"/></td></tr>
-
-
+                <table>
+                    <tr>
+                        <td>FirstName:</td>
+                        <td><input type="text" name="FirstName" /></td>
+                    </tr>
+                    <tr>
+                        <td>LastName:</td>
+                        <td><input type="text" name="LastName" /></td>
+                    </tr>
+                    <tr>
+                        <td>Company:</td>
+                        <td><input class="boxes" type="text" name="Company" /></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><input id="bigbox" type="text" name="Address" /></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td><input type="text" name="city" /></td>
+                    </tr>
+                    <tr>
+                        <td>State/ Province/ Region:</td>
+                        <td><select class="selections" name="states">
+                                <option selected disabled>-Select-</option>
+                                <option>California</option>
+                                <option>Fairfield</option>
+                                <option>Burlington</option>
+                                <option>Cedar Rapids</option>
+                                <option>Ottumwa</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Country: </td>
+                        <td><select class="selections" name="states">
+                                <option selected disabled>-Select-</option>
+                                <option>Uganda</option>
+                                <option>Canada</option>
+                                <option>Egypt</option>
+                                <option>France</option>
+                                <option>England</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>PhoneNumber:</td>
+                        <td><input type="text" name="phone number"></td>
+                    </tr>
+                </table>
             </form>
-            </table>
-        
-        
+
+
         </div>
         <div class="right">
             <u>Lunch</u>
             <form action="#">
                 <table>
-                    <tr><td>Meal Preference :</td><td></Name><select class="selections" name="meals">
-                        <option selected >Vegetarian</option>
-                         <option>Insectivorous</option>
-                          <option>Meat eating</option>
-                             </select></td></tr>
-                             <tr><td><u>Payment Details</u></td></tr>
-                    <tr><td>Payment mode:</td><td><input type="radio"name="aa"/>Demand Draft</td></tr>
-                    <tr><td></td><td><input type="radio"name="aa"/>Cash</td></tr>
-                    <tr><td></td><td><input type="radio"name="aa"/>Cheque </td></tr>
-                    
-                    <tr><td>DD Cheque No:</td><td></Name><input type="text"name="Cheque"/></td></tr>
-                    <tr><td>Drawn on (Bank Name):</td><td></Name><input type="text"name="Bank"/></td></tr>
-                    <tr><td>Payable at:</td><td></Name><input type="text"name="Payable"/></td></tr>
+                    <tr>
+                        <td>Meal Preference :</td><select class="selections" name="meals">
+                            <option selected>Vegetarian</option>
+                            <option>Insectivorous</option>
+                            <option>Meat eating</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><u>Payment Details</u></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>Payment mode:</td>
+                        <td><input type="radio" name="aa" />Demand Draft</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="radio" name="aa" />Cash</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="radio" name="aa" />Cheque </td>
+                    </tr>
 
-                    </table>
-                </form>
+                    <tr>
+                        <td>DD Cheque No:</td>
+                        <td>
+                            <input type="text" name="Cheque" /></td>
+                    </tr>
+                    <tr>
+                        <td>Drawn on (Bank Name):</td>
+                        <td>
+                            <input type="text" name="Bank" /></td>
+                    </tr>
+                    <tr>
+                        <td>Payable at:</td>
+                        <td>
+                            <input type="text" name="Payable" /></td>
+                    </tr>
+
+                </table>
+            </form>
         </div>
-        </div>
-        <div class="sub">
-            <input class="button" type="submit"/>
-            <input class="button" type="reset"/>
-          </div>
+    </div>
+    <div class="sub">
+        <input class="button" type="submit" />
+        <input class="button" type="reset" />
+    </div>
 
 
-    
+
 </body>
+
 </html>
