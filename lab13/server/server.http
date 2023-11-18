@@ -1,0 +1,22 @@
+GET http://localhost:3000/books
+
+
+###
+GET http://localhost:3000/books/2
+
+###
+
+POST http://localhost:3000/books
+
+Content-Type: application/json
+
+{
+    "title" : "Jungle Book",
+    "ISBN" : "1234567890",
+    "publishedDate" : "10/10/1990",
+    "author" : "Ivan Agaba"
+}
+
+###
+
+DELETE http://localhost:3000/books/3
